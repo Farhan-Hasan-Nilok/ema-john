@@ -11,8 +11,10 @@
 }
 
 .product-name{
+    display: grid;
     color: blue;
     font-weight: 400; 
+    grid-template-columns: 1fr 300px;
 }
 
 .product-name, h4, p{
@@ -21,4 +23,19 @@
 
 .info{
     color: grey;
+}
+
+.specs{
+    display: grid;
+    padding-bottom: 5px;
+    color: grey;
+}
+
+.specs li{
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.specs h4{
+    padding-top: 90px;
 }
