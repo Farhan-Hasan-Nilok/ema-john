@@ -1,7 +1,7 @@
 import React from 'react';
-import './Product.css'
+import './Product.css';
 const Product = (props) => {
-    const { img, name, seller, price, stock, features } = props.product;
+    const { img, name, seller, price, stock, features} = props.product;
     console.log(props.product)
     return (
         <div className="product">
@@ -16,6 +16,7 @@ const Product = (props) => {
                     <p className='info'><small>By: {seller}</small></p>
                     <p className='info'><small>Price: {price}</small></p>
                     <p className='info'><small>Only {stock} left in the stock - Order soon</small></p>
+                    <button className='main-button'> add to cart</button>
               </div>
               <div className='specs'>
                 <h4>Features</h4>
