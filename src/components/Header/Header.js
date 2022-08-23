@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../images/logo.png'
 import './Header.css'
+
 const Header = () => {
     return (
         <div className='header'>
@@ -12,7 +13,7 @@ const Header = () => {
             </nav>
 
             <div className="search-container">
-                 <input type="text" className='search-input' placeholder='Tap here to search'/>            
+                <input type="text" className='search-input' placeholder='Tap here to search' />          
             </div>
         </div>
 
