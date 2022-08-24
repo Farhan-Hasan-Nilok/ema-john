@@ -23,6 +23,7 @@ nav a{
 nav a:hover{
     background-color: grey;
     color: #f0c14b;
+    border-radius: 5px;
 }
 
 .search-container{
